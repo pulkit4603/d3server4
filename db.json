@@ -1,0 +1,78 @@
+{
+  "workoutTrainer": {
+    "id": 1,
+    "name": "Adrianna Lamb",
+    "role": "Fitness Trainer",
+    "image": "trainer_adrianna.png"
+  },
+  "workoutPlan": {
+    "id": 1,
+    "title": "Legs Workout",
+    "focus": "Lower Body",
+    "difficulty": "Beginner",
+    "trainerId": 1
+  },
+  "workoutExercises": [
+    {
+      "id": 1,
+      "name": "Stretch",
+      "time": "08:00",
+      "setsCompleted": 10,
+      "totalSets": 20,
+      "image": "stretch.png"
+    },
+    {
+      "id": 2,
+      "name": "Back Stretch",
+      "time": "09:00",
+      "roundsCompleted": 6,
+      "totalRounds": 10,
+      "image": "back_stretch.png"
+    },
+    {
+      "id": 3,
+      "name": "Yoga",
+      "time": "10:00",
+      "minutesCompleted": 4,
+      "totalMinutes": 20,
+      "image": "yoga.png"
+    },
+    {
+      "id": 4,
+      "name": "Yoga",
+      "time": "11:00",
+      "totalMinutes": 20,
+      "image": "yoga.png"
+    }
+  ],
+  "workoutSchedule": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "exerciseId": 1,
+      "time": "08:00",
+      "reps": "20 Sets"
+    },
+    {
+      "id": 2,
+      "day": "Tuesday",
+      "exerciseId": 2,
+      "time": "08:00",
+      "reps": "10 Round"
+    },
+    {
+      "id": 3,
+      "day": "Wednesday",
+      "exerciseId": 3,
+      "time": "08:00",
+      "reps": "20 min"
+    },
+    {
+      "id": 4,
+      "day": "Thursday",
+      "exerciseId": 4,
+      "time": "08:00",
+      "reps": "20 min"
+    }
+  ]
+}
