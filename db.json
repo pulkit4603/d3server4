@@ -1,25 +1,27 @@
 {
   "workoutTrainer": {
     "id": 1,
-    "name": "Adrianna Lamb",
-    "role": "Fitness Trainer",
-    "image": "trainer_adrianna.png"
-  },
-  "workoutPlan": {
-    "id": 1,
-    "title": "Legs Workout",
-    "focus": "Lower Body",
-    "difficulty": "Beginner",
-    "trainerId": 1
+    "name": "Mike Fitness",
+    "role": "Strength Trainer",
+    "image": "https://i.ibb.co/bg7gD9c2/250302-16h42m56s-screenshot.png",
+    "workoutPlan": {
+      "id": 1,
+      "title": "Leg Day",
+      "focus": "Lower Body",
+      "difficulty": "Beginner",
+      "trainerId": 1,
+      "image": "https://i.ibb.co/VcDBH2b4/leg-day.jpg"
+    }
   },
   "workoutExercises": [
     {
       "id": 1,
-      "name": "Stretch",
+      "name": "Leg Stretch",
       "time": "08:00",
       "setsCompleted": 10,
       "totalSets": 20,
-      "image": "stretch.png"
+      "image": "https://i.ibb.co/JRGGQ0Mq/leg-stretch.png",
+      "video": "https://youtu.be/UIRTPXj1Q1U"
     },
     {
       "id": 2,
@@ -27,7 +29,8 @@
       "time": "09:00",
       "roundsCompleted": 6,
       "totalRounds": 10,
-      "image": "back_stretch.png"
+      "image": "https://i.ibb.co/pj1NWqPR/back-stretch-2.png",
+      "video": "https://www.youtube.com/watch?v=7V-EbW-DmN0&pp=ygUVYmFjayBzdHJldGNoIGV4ZXJjaXNl"
     },
     {
       "id": 3,
@@ -35,14 +38,16 @@
       "time": "10:00",
       "minutesCompleted": 4,
       "totalMinutes": 20,
-      "image": "yoga.png"
+      "image": "https://i.ibb.co/fYC8Jq6N/yoga.png",
+      "video": "https://www.youtube.com/watch?v=rRzBPkTg5N0&pp=ygUIbGVnIHlvZ2E%3D"
     },
     {
       "id": 4,
-      "name": "Yoga",
+      "name": "Zumba",
       "time": "11:00",
       "totalMinutes": 20,
-      "image": "yoga.png"
+      "image": "https://i.ibb.co/HTQPBhM6/zumba.png",
+      "video": "https://www.youtube.com/watch?v=ka4tN6RJvgQ&pp=ygUOenVtYmEgZXhlcmNpc2U%3D"
     }
   ],
   "workoutSchedule": [
@@ -73,6 +78,20 @@
       "exerciseId": 4,
       "time": "08:00",
       "reps": "20 min"
+    },
+    {
+      "id": 5,
+      "day": "Friday",
+      "exerciseId": 2,
+      "time": "08:00",
+      "reps": "10 Round"
+    }
+  ],
+  "motivation": [
+    {
+      "quote": "Your body can stand almost anything. It's your mind that you have to convince.",
+      "image": "https://i.ibb.co/3mPfzWcw/workout-Plan1.jpg"
     }
   ]
+}
 }
