@@ -92,6 +92,31 @@
       "quote": "Your body can stand almost anything. It's your mind that you have to convince.",
       "image": "https://i.ibb.co/3mPfzWcw/workout-Plan1.jpg"
     }
-  ]
+  ],
+  "notifications": {
+    "notifications":
+    [
+      {
+        "title": "Finish breakfast",
+        "content": "finish breakfast meal number 3 (oatmeal) before 11 am to keep up streak",
+        "timestamp": "2025-03-06T14:51:06.157Z"
+      },
+      {
+        "title": "Time for your workout",
+        "content": "Your scheduled HIIT session starts in 30 minutes. Get ready!",
+        "timestamp": "2025-03-06T09:30:00.000Z"
+      },
+      {
+        "title": "Coach Message",
+        "content": "Mike Fitness has left feedback on your recent workout. Check it now!",
+        "timestamp": "2025-03-06T16:20:33.157Z"
+      },
+      {
+        "title": "Water Reminder",
+        "content": "You've only logged 1L of water today. Aim for 3L to meet your daily goal.",
+        "timestamp": "2025-03-06T13:45:12.157Z"
+      }
+    ]
+  }
 }
 }
